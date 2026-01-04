@@ -1,0 +1,11 @@
+bin/
+target/
+*.class
+*.log
+*.exe
+*.zip
+*.jar
+.vscode/
+.eclipse/
+.idea/
+mysql-shell*
