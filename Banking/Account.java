@@ -10,7 +10,9 @@ public class Account {
 
     public Account(long accountNumber, String holderName) {
         this.accountNumber = accountNumber;
-        this.holderName = holderName;("Account created");
+        this.holderName = holderName;
+
+        System.out.println("Account created");
     } 
 
     public void deposit(double amount) {
