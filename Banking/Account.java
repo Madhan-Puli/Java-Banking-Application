@@ -17,7 +17,7 @@ public class Account {
 
     public void deposit(double amount) {
         balance += amount;
-        transactions.add("Deposited: "+ amount);
+        transactions.add("Deposited money: "+ amount);
     }
     public void withdraw(double amount) {
         if(amount <= balance) {
